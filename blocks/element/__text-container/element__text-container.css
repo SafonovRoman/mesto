@@ -1,0 +1,9 @@
+.element__text-container {
+	margin: 0;
+	padding: 0 15px 0 21px;
+	height: 79px;
+	background-color: #FFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

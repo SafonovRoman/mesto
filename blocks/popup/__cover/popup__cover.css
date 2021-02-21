@@ -1,0 +1,7 @@
+.popup__cover {
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	opacity: 0.5;
+	grid-area: 1 / 2 / 1 / 2;
+}
