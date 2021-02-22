@@ -3,3 +3,9 @@
 	height: 24px;
 	width: 24px;
 }
+
+@media screen and (max-width: 909px) {
+	.profile__btn-edit {
+		margin-left: 10px;
+	}
+}
