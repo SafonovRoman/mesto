@@ -5,6 +5,11 @@
 	background-image: url("../../../images/add_btn_big.svg");
 }
 
+.profile__btn-add:hover {
+	opacity: .6;
+	transition: opacity .1s;
+}
+
 @media screen and (max-width: 909px) {
 	.profile__btn-add {
 		margin-left: 0;

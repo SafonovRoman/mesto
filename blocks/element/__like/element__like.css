@@ -1,4 +1,11 @@
-.element_like {
+.element__like {
 	margin: 0;
 	padding: 0;
+	width: 22px;
+	height: 19px;
+	background-image: url("../../../images/like_normal.svg");
+}
+
+.element__like:hover {
+	opacity: .5;
 }
