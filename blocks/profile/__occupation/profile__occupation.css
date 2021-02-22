@@ -7,5 +7,6 @@
 @media screen and (max-width: 909px) {
 	.profile__occupation {
 		text-align: center;
+		margin-top: 14px;
 	}
 }
