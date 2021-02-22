@@ -1,0 +1,16 @@
+<svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect id="_rect" x="0" y="0" width="100%" height="100%" rx="1" stroke="white" stroke-width="3"/>
+    <svg x="46%" y="30%">
+        <path d="M 20 7 h-9 v-7 h2 v7 h-9 v2 h7 v7 h2 v-7 h7 v-2 Z" fill="white"/>
+    </svg>
+</svg>
+
+<!--<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%">-->
+
+<!--<rect id="_rect" x="0" y="0" width="100%" height="100%" rx="1" stroke="white" stroke-width="3"/>-->
+
+<!--<svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16" width="100%" height="100%">-->
+<!--    <path d="M150 24.1111H142.889V17H141.111V24.1111H134V25.8889H141.111V33H142.889V25.8889H150V24.1111Z" fill="white"/>-->
+<!--</svg>-->
+
+<!--</svg>-->

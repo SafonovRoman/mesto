@@ -3,3 +3,16 @@
 	top: -50px;
 	right: -50px;
 }
+
+@media screen and (max-width: 519px) {
+	.popup__close-btn {
+		right: -10px;
+	}
+}
+
+@media screen and (max-width: 439px) {
+	.popup__close-btn {
+		max-width: 37px;
+		top: -45px;
+	}
+}
