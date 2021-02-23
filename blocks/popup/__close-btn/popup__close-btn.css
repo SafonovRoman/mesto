@@ -1,7 +1,10 @@
 .popup__close-btn {
+	height: 58px;
+	width: 58px;
 	position: absolute;
 	top: -50px;
 	right: -50px;
+	background-image: url("../../../images/close_icon.png");
 }
 
 .popup__close-btn:hover {
