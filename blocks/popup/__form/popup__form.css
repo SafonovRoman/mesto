@@ -1,4 +1,4 @@
-.popup__window {
+.popup__form {
 	z-index: 1;
 	position: relative;
 	align-self: center;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 439px) {
-	.popup__window {
+	.popup__form {
 		max-width: 282px;
 	}
 }

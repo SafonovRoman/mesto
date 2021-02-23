@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<title>Mesto</title>
 	<link href="pages/index.css" rel="stylesheet">
 </head>
@@ -17,9 +18,9 @@
 		    <div class="profile__info">
 			    <div class="profile__name-container">
 				    <h1 class="profile__name">Жак-Ив Кусто</h1>
-				    <svg class="profile__btn-edit" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">\
-					    <rect x="0.5" y="0.5" width="23" height="23" stroke="white"/>\
-					    <path d="M17 8.32827L9.60377 15.7666L8.28302 14.4194L15.6604 7L17 8.32827ZM7 17L8.96226 16.4118L7.58491 15.0835L7 17Z" fill="white"/>\
+				    <svg class="profile__btn-edit" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					    <rect x="0.5" y="0.5" width="23" height="23" stroke="white"/>
+					    <path d="M17 8.32827L9.60377 15.7666L8.28302 14.4194L15.6604 7L17 8.32827ZM7 17L8.96226 16.4118L7.58491 15.0835L7 17Z" fill="white"/>
 				    </svg>
 			    </div>
 			    <p class="profile__occupation">Исследователь океана</p>
@@ -78,7 +79,7 @@
 
 	<div class="popup">
 		<div class="popup__cover"></div>
-		<form class="popup__window">
+		<form class="popup__form">
 			<div class="popup__container">
 				<h2 class="popup__header">Редактировать профиль</h2>
 				<label>
@@ -87,11 +88,11 @@
 				<label>
 					<input type="text" class="popup__text-input popup__profile-occupation">
 				</label>
-				<input class="popup__save-btn" type="button" value="Сохранить" draggable="true">
+				<input class="popup__save-btn" type="submit" value="Сохранить" draggable="true">
 				<img class="popup__close-btn" src="images/close_icon.png" alt="">
 			</div>
 		</form>
 	</div>
+	<script src="scripts/index.js"></script>
 </body>
-<script src="scripts/index.js"></script>
 </html>

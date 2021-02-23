@@ -12,17 +12,18 @@ let clearPopup = function () {
 let openPopupFunc = function () {
 	popupProfileName.placeholder = profileName.textContent
 	popupProfileOccupation.placeholder = profileOccupation.textContent
-	popup.style.display = "grid"
+	popup.classList.add('popup_opened')
 }
 
 
 let closePopupFunc = function () {
 	clearPopup()
-	popup.style.display = "none"
+	popup.classList.remove('popup_opened')
 }
 
 
-let savePopupFunc = function () {
+let savePopupFunc = function (evt) {
+	evt.preventDefault()
 	if (popupProfileName.value !== "") {
 		profileName.textContent = popupProfileName.value
 	}
@@ -34,7 +35,9 @@ let savePopupFunc = function () {
 
 let popupShowBtn = document.querySelector(".profile__btn-edit")
 popupShowBtn.addEventListener("click", openPopupFunc)
+
 let popupCloseBtn = popup.querySelector('.popup__close-btn')
 popupCloseBtn.addEventListener("click", closePopupFunc)
-let popupSaveBtn = popup.querySelector('.popup__save-btn')
-popupSaveBtn.addEventListener("click", savePopupFunc)
+
+let popupForm = popup.querySelector('.popup__form')
+popupForm.addEventListener('submit', savePopupFunc)
