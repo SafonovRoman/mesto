@@ -4,8 +4,12 @@
 	width: 22px;
 	height: 19px;
 	background-image: url("../../../images/like_normal.svg");
+	background-color: transparent;
+	cursor: pointer;
+	border: none;
 }
 
 .element__like:hover {
 	opacity: .5;
+	transition: opacity .1s;
 }

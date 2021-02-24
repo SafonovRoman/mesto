@@ -1,4 +1,7 @@
 .profile__name-container {
 	display: flex;
 	align-items: baseline;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }

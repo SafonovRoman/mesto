@@ -1,17 +1,19 @@
 .popup__form {
-	z-index: 1;
+	z-index: 2;
 	position: relative;
 	align-self: center;
 	justify-self: center;
 	background-color: #FFFFFF;
 	grid-area: 1 / 2 / 1 / 2;
-	min-width: 282px;
-	max-width: 430px;
+	min-width: 238px;
+	max-width: 358px;
 	border-radius: 10px;
+	padding: 34px 36px 37px;
 }
 
 @media screen and (max-width: 449px) {
 	.popup__form {
-		max-width: 282px;
+		max-width: 238px;
+		padding: 25px 22px;
 	}
 }

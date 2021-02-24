@@ -1,15 +1,16 @@
 .header {
-	height: 74px;
-	margin: 45px 0 0;
+	padding: 45px 0 41px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: space-between;
+	border-bottom: 1px solid #3b3b3b;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 909px) {
 	.header {
-		margin: 28px 8px 0;
-		height: 56px;
+		padding: 28px 8px 31px;
+		width: calc(100% - 16px);
 	}
 }
